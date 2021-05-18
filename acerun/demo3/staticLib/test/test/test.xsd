@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://test/test" xmlns:ibmSchExtn="http://www.ibm.com/schema/extensions" xmlns:testtest="http://test/test">
+  <!-- Message definition generated from C:\Users\OS\IBM\ACET11\workspace\test\test.dbm -->
+
+<!-- Complex type for test.test.coffeeshop -->
+    <xsd:complexType name="coffeeshopType">
+    <xsd:sequence>
+      <xsd:element name="name">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="address">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="manager" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="id" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+<!-- Global element for test.test.coffeeshop -->
+    <xsd:element ibmSchExtn:docRoot="true" name="coffeeshop" type="testtest:coffeeshopType"/>
+
+<!-- Complex type for test.test.pqeuser -->
+    <xsd:complexType name="pqeuserType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="fullName" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="username" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="realm" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="email" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="password" nillable="true">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="255"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element minOccurs="0" name="emailVerified" nillable="true" type="xsd:short"/>
+      <xsd:element name="verificationToken">
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="500"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="id" type="xsd:int"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+<!-- Global element for test.test.pqeuser -->
+    <xsd:element ibmSchExtn:docRoot="true" name="pqeuser" type="testtest:pqeuserType"/>
+</xsd:schema>

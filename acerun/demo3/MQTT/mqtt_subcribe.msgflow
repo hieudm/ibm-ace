@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" xmlns:com_ibm_connector_mqtt_ComIbmEventInput.msgnode="com/ibm/connector/mqtt/ComIbmEventInput.msgnode" xmlns:com_ibm_connector_mqtt_ComIbmOutput.msgnode="com/ibm/connector/mqtt/ComIbmOutput.msgnode" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:eflow="http://www.ibm.com/wbi/2005/eflow" 
+xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" nsURI="MQTT/mqtt_subcribe.msgflow" 
+nsPrefix="MQTT_mqtt_subcribe.msgflow">
+<eClassifiers xmi:type="eflow:FCMComposite" name="FCMComposite_1">
+<eSuperTypes href="http://www.ibm.com/wbi/2005/eflow#//FCMBlock"/>
+<translation xmi:type="utility:TranslatableString" key="mqtt_subcribe" bundleName="MQTT/mqtt_subcribe" pluginId="flowAPIgenerated"/>
+<colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj16/mqtt_subcribe.gif"/>
+<colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/flowAPIgenerated/icons/full/obj30/mqtt_subcribe.gif"/>
+<composition>
+<nodes xmi:type="com_ibm_connector_mqtt_ComIbmEventInput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="190,116" clientId="ACE15052904l" topicName="/test" hostName="broker.hivemq.com" port="1883" qos="0" connectorName="MQTT" securityIdentity="" messageDomainProperty="" messageSetProperty="" messageTypeProperty="" messageFormatProperty="" validateTiming="deferred" parserXmlnscBuildTreeUsingXMLSchema="no" parserXmlnscUseForXmlnsDomain="no" parserXmlnscMixedContentRetainMode="none" parserXmlnscCommentsRetainMode="none" parserXmlnscProcessingInstructionsRetainMode="none" validateMaster="none" validateFailureAction="exception" validateAllValueConstraints="true" validateFixup="none" policyUrl="">
+<translation xmi:type="utility:ConstantString" string="MQTTSubscribe"/>
+</nodes>
+<nodes xmi:type="com_ibm_connector_mqtt_ComIbmOutput.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="492,130" clientId="ACE15005sd" topicName="/outace" hostName="broker.hivemq.com" port="1883" qos="0" connectorName="MQTT" securityIdentity="" validateMaster="inherit" validateFailureAction="exception" validateAllValueConstraints="true" validateFixup="none" policyUrl="">
+<translation xmi:type="utility:ConstantString" string="MQTTPublish"/>
+</nodes>
+<connections xmi:type="eflow:FCMConnection" xmi:id="FCMConnection_1" targetNode="FCMComposite_1_2" sourceNode="FCMComposite_1_1" sourceTerminalName="OutTerminal.out" targetTerminalName="InTerminal.in"/>
+</composition>
+<propertyOrganizer>
+</propertyOrganizer>
+<stickyBoard/>
+</eClassifiers>
+</ecore:EPackage>

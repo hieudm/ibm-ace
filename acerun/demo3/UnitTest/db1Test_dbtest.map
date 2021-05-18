@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="UnitTest" version="8.0.5.0" xmlns:map="UnitTest">
+    <inlinedXMLSchema targetNamespace="http://www.ibm.com/iib/msl/json"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ibm.com/iib/msl/json">    
+        <xsd:import schemaLocation="/databasemodel.xsd"/>   
+    <xsd:complexType block="#all" name="JSONArray_1">    
+    <xsd:sequence>    
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="Item" nillable="true" type="employeeType">    
+               </xsd:element>    
+    </xsd:sequence>    
+  </xsd:complexType>    
+</xsd:schema>]]></inlinedXMLSchema>
+    <inlinedXMLSchema><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:Q1="http://test/test"> 
+    <xsd:import namespace="http://test/test" schemaLocation="/test/test/test.xsd"/> 
+    <xsd:element name="coffeeshop" type="Q1:coffeeshopType"/> 
+</xsd:schema>]]></inlinedXMLSchema>
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var1"/>
+    <input inlinedXMLSchema="true" path="../schema_1.xsd" targetNamespace="http://www.ibm.com/iib/msl/json" var="var3"/>
+    <input path="/test/test/test.xsd" var="var"/>
+    <input inlinedXMLSchema="true" path="../schema_1.xsd" var="var5"/>
+    <input inlinedXMLSchema="true" path="../schema_1.xsd" var="var6"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var4"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var2"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="supplement" prefix="in" uri="http://test/test"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="db1Test_dbtest">
+        <input path="$var1/mb:env(Environment)" var="Environment">
+            <cast castType="userDefined" path="$Environment/Variables/any" qualifier="coffeeshop" ref="var5" var="any"/>
+        </input>
+        <input namespace="http://test/test" path="$var/mb:msg(coffeeshop,assembly,XMLNSC,Properties)" var="MessageAssembly"/>
+        <output path="$var4/mb:env(Environment)" var="Environment1">
+            <cast castType="userDefined" path="$Environment1/Variables/any" qualifier="coffeeshop" ref="var5" var="any1"/>
+        </output>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var2/mb:msg(JSON,assembly,JSON,Properties)" var="MessageAssembly1">
+            <cast castType="userDefined" path="$MessageAssembly1/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONArray_1" ref="var3" var="anyType"/>
+        </output>
+        <passthrough>
+            <input path="$Environment/."/>
+            <output path="$Environment1/."/>
+            <updates>
+                <move>
+                    <input path="$MessageAssembly/coffeeshop"/>
+                    <output path="$Environment1/Variables/coffeeshop"/>
+                </move>
+            </updates>
+        </passthrough>
+        <move>
+            <input path="$MessageAssembly/Properties"/>
+            <output path="$MessageAssembly1/Properties"/>
+        </move>
+        <assign value="Ly Chinh Thang">
+            <output path="$MessageAssembly1/JSON/spath('Data',2)/Item/address"/>
+        </assign>
+    </mappingDeclaration>
+</mappingRoot>

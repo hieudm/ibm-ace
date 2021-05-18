@@ -14,8 +14,7 @@ services:
         - MQ_DEV=false
         - MQ_ADMIN_PASSWORD=bhu89ijn
     volumes:
-      - ./server.conf.yaml:/home/aceuser/initial-config/serverconf
-      - ./setdbparms:/home/aceuser/initial-config/setdbparms
+      - ./initial-config:/home/aceuser/initial-config
       - ./acerun:/home/aceuser/ace-server/run
       - qmdata:/var/mqm
     ports: 

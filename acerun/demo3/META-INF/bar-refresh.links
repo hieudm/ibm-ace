@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1620719122935" workspaceResource="/demo3/IBMdefined/CommaSeparatedFormat.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\IBMdefined\CommaSeparatedFormat.xsd.&#xA;Successfully added file demo3\IBMdefined\CommaSeparatedFormat.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="IBMdefined\CommaSeparatedFormat.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620959972584" workspaceResource="/demo3/MQTT/mqtt_subcribe.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\MQTT\mqtt_subcribe.msgflow.&#xA;Successfully added file demo3\MQTT\mqtt_subcribe.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="MQTT\mqtt_subcribe.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620958078655" workspaceResource="/demo3/UnitTest/db1Test.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\UnitTest\db1Test.msgflow.&#xA;Successfully added file demo3\UnitTest\db1Test.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="UnitTest\db1Test.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620892762409" workspaceResource="/demo3/UnitTest/db1Test_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\UnitTest\db1Test_Mapping.map.&#xA;Successfully added file demo3\UnitTest\db1Test_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="UnitTest/db1Test_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620892245595" workspaceResource="/demo3/UnitTest/db1Test_dbtest.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\UnitTest\db1Test_dbtest.map.&#xA;Successfully added file demo3\UnitTest\db1Test_dbtest.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="UnitTest/db1Test_dbtest.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620698577927" workspaceResource="/demo3/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\application.descriptor.&#xA;Successfully added file demo3\application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file demo3\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620720275692" workspaceResource="/demo3/csvSample.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\csvSample.xsd.&#xA;Successfully added file demo3\csvSample.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="csvSample.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620892201768" workspaceResource="/demo3/databasemodel.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\databasemodel.xsd.&#xA;Successfully added file demo3\databasemodel.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="databasemodel.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620958097590" workspaceResource="/demo3/db1Test_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\db1Test_Compute.esql.&#xA;Successfully added file demo3\db1Test_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="db1Test_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620978333113" workspaceResource="/demo3/helloworld.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld.msgflow.&#xA;Successfully added file demo3\helloworld.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620978908794" workspaceResource="/demo3/helloworld_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_Compute.esql.&#xA;Successfully added file demo3\helloworld_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620719905969" workspaceResource="/demo3/helloworld_Compute1.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_Compute1.esql.&#xA;Successfully added file demo3\helloworld_Compute1.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_Compute1.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620789626439" workspaceResource="/demo3/helloworld_Filter.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_Filter.esql.&#xA;Successfully added file demo3\helloworld_Filter.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_Filter.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620802877140" workspaceResource="/demo3/helloworld_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_Mapping.map.&#xA;Successfully added file demo3\helloworld_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620718131411" workspaceResource="/demo3/helloworld_responseData.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_responseData.map.&#xA;Successfully added file demo3\helloworld_responseData.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_responseData.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620720752483" workspaceResource="/demo3/helloworld_xmlmapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\helloworld_xmlmapping.map.&#xA;Successfully added file demo3\helloworld_xmlmapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="helloworld_xmlmapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620717870038" workspaceResource="/demo3/sampledata.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\sampledata.xsd.&#xA;Successfully added file demo3\sampledata.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="sampledata.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620890806300" workspaceResource="/demo3/test/test/test.xsd">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\test\test\test.xsd.&#xA;Successfully added file demo3\test\test\test.xsd to BAR file.&#xA;" severity="0"/>
+      <barEntry name="test\test\test.xsd"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620968573111" workspaceResource="/demo3/testsubflow.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3\testsubflow.subflow.&#xA;Successfully added file demo3\testsubflow.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="testsubflow.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620976970269" workspaceResource="/staticLib/.project">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file staticLib.&#xA;Library file staticLib.libzip successfully added to the BAR.&#xA;Library compiled contents:&#xA;    &#xA;    Processing file staticLib\test\test\test.xsd.&#xA;    Successfully added file staticLib\test\test\test.xsd to BAR file.&#xA;    &#xA;    &#xA;    Processing file staticLib\library.descriptor.&#xA;    Successfully added file staticLib\library.descriptor to BAR file.&#xA;    Elapsed time: 0 second(s).&#xA;    &#xA;    Successfully added file staticLib\library.descriptor to BAR file.&#xA;    &#xA;&#xA;Elapsed time: 0.003 second(s).&#xA;" severity="0"/>
+      <barEntry name="staticLib.libzip"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1620807331562" workspaceResource="/demo3Java/.classpath">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file demo3Java\.classpath.&#xA;Successfully added file demo3Java\.classpath to BAR file.&#xA;Elapsed time: 0.01 second(s).&#xA;" severity="0"/>
+      <barEntry name="demo3Java.jar"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

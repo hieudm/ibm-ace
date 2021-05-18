@@ -11,8 +11,7 @@ services:
         - ACE_SERVER_NAME=ACESERVER
         - USE_QMGR=false
     volumes:
-      - ./server.conf.yaml:/home/aceuser/initial-config/serverconf
-      - ./setdbparms:/home/aceuser/initial-config/setdbparms
+      - ./initial-config:/home/aceuser/initial-config
     ports: 
       - 7600:7600
       - 7800:7800

@@ -1,0 +1,135 @@
+<Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="helloworld">
+<ConfigurableProperty override="20" uri="helloworld#additionalInstances"/>
+<ConfigurableProperty uri="helloworld#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="helloworld#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="helloworld#processingTimeoutSec"/>
+<ConfigurableProperty uri="helloworld#processingTimeoutAction"/>
+<ConfigurableProperty uri="helloworld#wlmPolicy"/>
+<ConfigurableProperty uri="helloworld#commitCount"/>
+<ConfigurableProperty uri="helloworld#commitInterval"/>
+<ConfigurableProperty uri="helloworld#coordinatedTransaction"/>
+<ConfigurableProperty uri="helloworld#consumerPolicySet"/>
+<ConfigurableProperty uri="helloworld#providerPolicySet"/>
+<ConfigurableProperty uri="helloworld#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="helloworld#providerPolicySetBindings"/>
+<ConfigurableProperty uri="helloworld#securityProfileName"/>
+<ConfigurableProperty uri="helloworld#monitoringProfile"/>
+<ConfigurableProperty uri="helloworld#startMode"/>
+<ConfigurableProperty uri="helloworld#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty uri="helloworld#version"/>
+<ConfigurableProperty uri="helloworld#appname"/>
+<ConfigurableProperty override="1" uri="helloworld#CustomerID"/>
+<ConfigurableProperty override="C:\acetest\outdata" uri="helloworld#outputDirectory"/>
+<ConfigurableProperty override="C:\acetest\indata" uri="helloworld#inputDirectory"/>
+<ConfigurableProperty uri="helloworld#test"/>
+<ConfigurableProperty uri="helloworld#Compute.dataSource"/>
+<ConfigurableProperty uri="helloworld#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="helloworld#Compute.validateMaster"/>
+<ConfigurableProperty override="out.txt" uri="helloworld#File Output.outputFilename"/>
+<ConfigurableProperty uri="helloworld#File Output.requestDirectoryLocation"/>
+<ConfigurableProperty override="$Root/XMLNSC/DataInput/record[1]/fieldthu2" uri="helloworld#File Output.requestNameLocation"/>
+<ConfigurableProperty uri="helloworld#File Output.recordDelimiter"/>
+<ConfigurableProperty uri="helloworld#File Output.customDelimiter"/>
+<ConfigurableProperty uri="helloworld#File Output.validateMaster"/>
+<ConfigurableProperty uri="helloworld#File Output.fileFtp"/>
+<ConfigurableProperty uri="helloworld#File Output.remoteTransferType"/>
+<ConfigurableProperty uri="helloworld#File Output.fileFtpServer"/>
+<ConfigurableProperty uri="helloworld#File Output.fileFtpUser"/>
+<ConfigurableProperty uri="helloworld#File Output.fileFtpDirectory"/>
+<ConfigurableProperty override="httpdata.data" uri="helloworld#File Read.filenamePattern"/>
+<ConfigurableProperty uri="helloworld#File Read.messageCodedCharSetIdProperty"/>
+<ConfigurableProperty uri="helloworld#File Read.messageEncodingProperty"/>
+<ConfigurableProperty uri="helloworld#File Read.recordDelimiter"/>
+<ConfigurableProperty uri="helloworld#File Read.customDelimiter"/>
+<ConfigurableProperty uri="helloworld#File Read.validateMaster"/>
+<ConfigurableProperty uri="helloworld#File Read.fileFtp"/>
+<ConfigurableProperty uri="helloworld#File Read.deleteRemoteFileOnTransfer"/>
+<ConfigurableProperty uri="helloworld#File Read.remoteTransferType"/>
+<ConfigurableProperty uri="helloworld#File Read.fileFtpServer"/>
+<ConfigurableProperty uri="helloworld#File Read.fileFtpUser"/>
+<ConfigurableProperty uri="helloworld#File Read.fileFtpDirectory"/>
+<ConfigurableProperty override="/hello2" uri="helloworld#HTTP Input.URLSpecifier"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.useHTTPS"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.decompressInputMessage"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.timeoutForClient"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.faultFormat"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.validateMaster"/>
+<ConfigurableProperty uri="helloworld#HTTP Input.securityProfileName"/>
+<ConfigurableProperty uri="helloworld#HTTP Reply.validateMaster"/>
+<ConfigurableProperty uri="helloworld#HTTP Reply1.validateMaster"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="MQTT.mqtt_subcribe">
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#additionalInstances"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#processingTimeoutSec"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#processingTimeoutAction"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#wlmPolicy"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#commitCount"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#commitInterval"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#coordinatedTransaction"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#consumerPolicySet"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#providerPolicySet"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#providerPolicySetBindings"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#securityProfileName"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#monitoringProfile"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#startMode"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="ACE15052904l" uri="MQTT.mqtt_subcribe#MQTTSubscribe.clientId"/>
+<ConfigurableProperty override="/test" uri="MQTT.mqtt_subcribe#MQTTSubscribe.topicName"/>
+<ConfigurableProperty override="broker.hivemq.com" uri="MQTT.mqtt_subcribe#MQTTSubscribe.hostName"/>
+<ConfigurableProperty override="1883" uri="MQTT.mqtt_subcribe#MQTTSubscribe.port"/>
+<ConfigurableProperty override="0" uri="MQTT.mqtt_subcribe#MQTTSubscribe.qos"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#MQTTSubscribe.securityIdentity"/>
+<ConfigurableProperty override="false" uri="MQTT.mqtt_subcribe#MQTTSubscribe.useSSL"/>
+<ConfigurableProperty override="none" uri="MQTT.mqtt_subcribe#MQTTSubscribe.validateMaster"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#MQTTSubscribe.policyUrl"/>
+<ConfigurableProperty override="ACE15005sd" uri="MQTT.mqtt_subcribe#MQTTPublish.clientId"/>
+<ConfigurableProperty override="/outace" uri="MQTT.mqtt_subcribe#MQTTPublish.topicName"/>
+<ConfigurableProperty override="broker.hivemq.com" uri="MQTT.mqtt_subcribe#MQTTPublish.hostName"/>
+<ConfigurableProperty override="1883" uri="MQTT.mqtt_subcribe#MQTTPublish.port"/>
+<ConfigurableProperty override="0" uri="MQTT.mqtt_subcribe#MQTTPublish.qos"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#MQTTPublish.securityIdentity"/>
+<ConfigurableProperty override="false" uri="MQTT.mqtt_subcribe#MQTTPublish.useSSL"/>
+<ConfigurableProperty override="inherit" uri="MQTT.mqtt_subcribe#MQTTPublish.validateMaster"/>
+<ConfigurableProperty uri="MQTT.mqtt_subcribe#MQTTPublish.policyUrl"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="UnitTest.db1Test">
+<ConfigurableProperty uri="UnitTest.db1Test#additionalInstances"/>
+<ConfigurableProperty uri="UnitTest.db1Test#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="UnitTest.db1Test#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="UnitTest.db1Test#processingTimeoutSec"/>
+<ConfigurableProperty uri="UnitTest.db1Test#processingTimeoutAction"/>
+<ConfigurableProperty uri="UnitTest.db1Test#wlmPolicy"/>
+<ConfigurableProperty uri="UnitTest.db1Test#commitCount"/>
+<ConfigurableProperty uri="UnitTest.db1Test#commitInterval"/>
+<ConfigurableProperty uri="UnitTest.db1Test#coordinatedTransaction"/>
+<ConfigurableProperty uri="UnitTest.db1Test#consumerPolicySet"/>
+<ConfigurableProperty uri="UnitTest.db1Test#providerPolicySet"/>
+<ConfigurableProperty uri="UnitTest.db1Test#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="UnitTest.db1Test#providerPolicySetBindings"/>
+<ConfigurableProperty uri="UnitTest.db1Test#securityProfileName"/>
+<ConfigurableProperty uri="UnitTest.db1Test#monitoringProfile"/>
+<ConfigurableProperty uri="UnitTest.db1Test#startMode"/>
+<ConfigurableProperty uri="UnitTest.db1Test#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="/db1test" uri="UnitTest.db1Test#HTTP Input.URLSpecifier"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.useHTTPS"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.decompressInputMessage"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.timeoutForClient"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.faultFormat"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.validateMaster"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Input.securityProfileName"/>
+<ConfigurableProperty uri="UnitTest.db1Test#HTTP Reply.validateMaster"/>
+<ConfigurableProperty uri="UnitTest.db1Test#Compute.dataSource"/>
+<ConfigurableProperty uri="UnitTest.db1Test#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="UnitTest.db1Test#Compute.validateMaster"/>
+<ConfigurableProperty uri="UnitTest.db1Test#Java Compute.javaClassLoader"/>
+<ConfigurableProperty uri="UnitTest.db1Test#Java Compute.validateMaster"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="testsubflow" type="subflow"/>
+</Broker>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><!--HTTP server plugin config file for mqweb generated on 2021.05.18 at 04:22:34 UTC-->
-<Config ASDisableNagle="false" AcceptAllContent="false" AppServerPortPreference="HostHeader" ChunkedResponse="false" ConfigHash="1154122296" FIPSEnable="false" IISDisableNagle="false" IISPluginPriority="High" IgnoreDNSFailures="false" RefreshInterval="60" ResponseChunkSize="64" SSLConsolidate="false" TrustedProxyEnable="false" VHostMatchingCompat="false">
+<?xml version="1.0" encoding="UTF-8"?><!--HTTP server plugin config file for mqweb generated on 2021.05.18 at 10:18:03 UTC-->
+<Config ASDisableNagle="false" AcceptAllContent="false" AppServerPortPreference="HostHeader" ChunkedResponse="false" ConfigHash="-65434539" FIPSEnable="false" IISDisableNagle="false" IISPluginPriority="High" IgnoreDNSFailures="false" RefreshInterval="60" ResponseChunkSize="64" SSLConsolidate="false" TrustedProxyEnable="false" VHostMatchingCompat="false">
    <Log LogLevel="Error" Name="/opt/IBM/WebSphere/Plugins/logs/webserver1/http_plugin.log"/>
    <Property Name="ESIEnable" Value="true"/>
    <Property Name="ESIMaxCacheSize" Value="1024"/>
@@ -16,7 +16,7 @@
       <VirtualHost Name="*:443"/>
    </VirtualHostGroup>
    <ServerCluster CloneSeparatorChange="false" GetDWLMTable="false" IgnoreAffinityRequests="true" LoadBalance="Round Robin" Name="mqweb_default_node_Cluster" PostBufferSize="0" PostSizeLimit="-1" RemoveSpecialHeaders="true" RetryInterval="60" ServerIOTimeoutRetry="-1">
-      <Server CloneID="c66f4dfe-34a4-421d-ba5b-a7919c6c738c" ConnectTimeout="5" ExtendedHandshake="false" LoadBalanceWeight="20" MaxConnections="-1" Name="default_node_mqweb" ServerIOTimeout="900" WaitForContinue="false">
+      <Server CloneID="88d9fe44-e71d-46de-a298-be53c9771e43" ConnectTimeout="5" ExtendedHandshake="false" LoadBalanceWeight="20" MaxConnections="-1" Name="default_node_mqweb" ServerIOTimeout="900" WaitForContinue="false">
          <Transport Hostname="aceserver" Port="9443" Protocol="https">
             <Property Name="keyring" Value="/opt/IBM/WebSphere/Plugins/config/webserver1/plugin-key.kdb"/>
             <Property Name="stashfile" Value="/opt/IBM/WebSphere/Plugins/config/webserver1/plugin-key.sth"/>
@@ -27,9 +27,9 @@
       </PrimaryServers>
    </ServerCluster>
    <UriGroup Name="default_host_mqweb_default_node_Cluster_URIs">
-      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ibmmq/rest/v1/*"/>
       <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ibmmq/console/internal/*"/>
       <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ibmmq/console/*"/>
+      <Uri AffinityCookie="JSESSIONID" AffinityURLIdentifier="jsessionid" Name="/ibmmq/rest/v1/*"/>
    </UriGroup>
    <Route ServerCluster="mqweb_default_node_Cluster" UriGroup="default_host_mqweb_default_node_Cluster_URIs" VirtualHostGroup="default_host"/>
 </Config>

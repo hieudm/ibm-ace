@@ -1,0 +1,13 @@
+
+
+CREATE FILTER MODULE helloworld_Filter
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		--$Root/DFDL/DataInput/record[1]/fieldthu2
+		if Body.DataInput.record[1].fieldthu2 is NOt NULL THEN
+			RETURN TRUE;
+			
+		END if;
+	END;
+
+END MODULE;

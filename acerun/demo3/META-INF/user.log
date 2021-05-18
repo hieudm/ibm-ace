@@ -1,0 +1,351 @@
+
+==============================================
+
+!Fri May 14 14:55:54 ICT 2021
+
+Processing file demo3\helloworld.msgflow.
+Successfully added file demo3\helloworld.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\UnitTest\db1Test.msgflow.
+Successfully added file demo3\UnitTest\db1Test.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\MQTT\mqtt_subcribe.msgflow.
+Successfully added file demo3\MQTT\mqtt_subcribe.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\IBMdefined\CommaSeparatedFormat.xsd.
+Successfully added file demo3\IBMdefined\CommaSeparatedFormat.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\UnitTest\db1Test_Mapping.map.
+Successfully added file demo3\UnitTest\db1Test_Mapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\UnitTest\db1Test_dbtest.map.
+Successfully added file demo3\UnitTest\db1Test_dbtest.map to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\application.descriptor.
+Successfully added file demo3\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file demo3\application.descriptor to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\application.descriptor.
+Successfully added file demo3\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file demo3\application.descriptor to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\csvSample.xsd.
+Successfully added file demo3\csvSample.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\databasemodel.xsd.
+Successfully added file demo3\databasemodel.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\db1Test_Compute.esql.
+Successfully added file demo3\db1Test_Compute.esql to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_Compute.esql.
+Successfully added file demo3\helloworld_Compute.esql to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_Compute1.esql.
+Successfully added file demo3\helloworld_Compute1.esql to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_Filter.esql.
+Successfully added file demo3\helloworld_Filter.esql to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_Mapping.map.
+Successfully added file demo3\helloworld_Mapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_responseData.map.
+Successfully added file demo3\helloworld_responseData.map to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\helloworld_xmlmapping.map.
+Successfully added file demo3\helloworld_xmlmapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\sampledata.xsd.
+Successfully added file demo3\sampledata.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\test\test\test.xsd.
+Successfully added file demo3\test\test\test.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3\testsubflow.subflow.
+Successfully added file demo3\testsubflow.subflow to BAR file.
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file staticLib.
+Library file staticLib.libzip successfully added to the BAR.
+Library compiled contents:
+    
+    Processing file staticLib\test\test\test.xsd.
+    Successfully added file staticLib\test\test\test.xsd to BAR file.
+    
+    
+    Processing file staticLib\library.descriptor.
+    Successfully added file staticLib\library.descriptor to BAR file.
+    Elapsed time: 0.001 second(s).
+    
+    Successfully added file staticLib\library.descriptor to BAR file.
+    
+
+Elapsed time: 0.001 second(s).
+
+==============================================
+
+!Fri May 14 14:55:55 ICT 2021
+
+Processing file demo3Java\.classpath.
+Successfully added file demo3Java\.classpath to BAR file.
+Elapsed time: 0.004 second(s).
+
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld.msgflow.
+Successfully added file demo3\helloworld.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\UnitTest\db1Test.msgflow.
+Successfully added file demo3\UnitTest\db1Test.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\MQTT\mqtt_subcribe.msgflow.
+Successfully added file demo3\MQTT\mqtt_subcribe.msgflow to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\IBMdefined\CommaSeparatedFormat.xsd.
+Successfully added file demo3\IBMdefined\CommaSeparatedFormat.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\UnitTest\db1Test_Mapping.map.
+Successfully added file demo3\UnitTest\db1Test_Mapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\UnitTest\db1Test_dbtest.map.
+Successfully added file demo3\UnitTest\db1Test_dbtest.map to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\application.descriptor.
+Successfully added file demo3\application.descriptor to BAR file.
+Elapsed time: 0.001 second(s).
+
+Successfully added file demo3\application.descriptor to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\application.descriptor.
+Successfully added file demo3\application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file demo3\application.descriptor to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\csvSample.xsd.
+Successfully added file demo3\csvSample.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\databasemodel.xsd.
+Successfully added file demo3\databasemodel.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\db1Test_Compute.esql.
+Successfully added file demo3\db1Test_Compute.esql to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_Compute.esql.
+Successfully added file demo3\helloworld_Compute.esql to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_Compute1.esql.
+Successfully added file demo3\helloworld_Compute1.esql to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_Filter.esql.
+Successfully added file demo3\helloworld_Filter.esql to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_Mapping.map.
+Successfully added file demo3\helloworld_Mapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_responseData.map.
+Successfully added file demo3\helloworld_responseData.map to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\helloworld_xmlmapping.map.
+Successfully added file demo3\helloworld_xmlmapping.map to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\sampledata.xsd.
+Successfully added file demo3\sampledata.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\test\test\test.xsd.
+Successfully added file demo3\test\test\test.xsd to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3\testsubflow.subflow.
+Successfully added file demo3\testsubflow.subflow to BAR file.
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file staticLib.
+Library file staticLib.libzip successfully added to the BAR.
+Library compiled contents:
+    
+    Processing file staticLib\test\test\test.xsd.
+    Successfully added file staticLib\test\test\test.xsd to BAR file.
+    
+    
+    Processing file staticLib\library.descriptor.
+    Successfully added file staticLib\library.descriptor to BAR file.
+    Elapsed time: 0 second(s).
+    
+    Successfully added file staticLib\library.descriptor to BAR file.
+    
+
+Elapsed time: 0.003 second(s).
+
+==============================================
+
+!Fri May 14 15:14:58 ICT 2021
+
+Processing file demo3Java\.classpath.
+Successfully added file demo3Java\.classpath to BAR file.
+Elapsed time: 0.01 second(s).

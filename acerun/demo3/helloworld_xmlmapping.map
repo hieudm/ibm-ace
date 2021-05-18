@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <inlinedXMLSchema><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+    <xsd:include schemaLocation="/sampledata.xsd"/> 
+    <xsd:element name="Result" nillable="true" type="DataType"/> 
+</xsd:schema>]]></inlinedXMLSchema>
+    <input path="/sampledata.xsd" var="var4"/>
+    <input inlinedXMLSchema="true" path="../schema_0.xsd" var="var3"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var2"/>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="helloworld_xmlmapping">
+        <input path="$var4/mb:msg(Data,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_Data"/>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var2/mb:msg(JSON,assembly,JSON,Properties)" var="MessageAssembly1">
+            <cast castType="userDefined" path="$MessageAssembly1/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONObject" ref="var2"/>
+            <cast castType="userDefined" path="$MessageAssembly1/JSON/spath('Data',2)/any" qualifier="Result" ref="var3"/>
+        </output>
+        <move>
+            <input path="$ComIbmMessageAssembly_Data/Properties"/>
+            <output path="$MessageAssembly1/Properties"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_Data/Data/inputdata"/>
+            <output path="$MessageAssembly1/JSON/spath('Data',2)/Result/optionalData"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

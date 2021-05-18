@@ -1,0 +1,34 @@
+
+
+--  $MQSI patternName=com.ibm.etools.mft.pattern.mbi.mrrc.relmq MQSI$
+--  $MQSI patternVersion=1.0 MQSI$
+
+CREATE COMPUTE MODULE helloworld_Compute
+	DECLARE CustomerID EXTERNAL CHARACTER ;
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		CALL CopyMessageHeaders();
+		
+		SET OutputRoot.XMLNSC = InputRoot.DFDL;
+		--$LocalEnvironment/Destination/File/Name
+		SET OutputLocalEnvironment.Destination.File.Name = 'myDynamicFileName'||CustomerID||'.txt';
+		--SET OutputRoot.XMLNSC.Data.inputdata = 'This is my test from eSQL';
+		-- CALL CopyEntireMessage();
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

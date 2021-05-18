@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="inputdata" type="xsd:string"/>
+  <xsd:element name="Data" type="DataType"/>
+  <xsd:complexType name="DataType">
+    <xsd:sequence>
+    	<xsd:element ref="inputdata" maxOccurs="1" minOccurs="0"/>
+            <xsd:element name="optionalData" type="xsd:string" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
