@@ -1,0 +1,16 @@
+Launching mqweb (WebSphere Application Server 19.0.0.9/wlp-1.0.32.cl190920190905-0148) on IBM J9 VM, version 8.0.5.41 - pxa6480sr5fp41-20190919_01(SR5 FP41) (en_US)
+[AUDIT   ] CWWKE0001I: The server mqweb has been launched.
+[AUDIT   ] CWWKG0028A: Processing included configuration resource: /opt/mqm/web/mq/etc/mqweb.xml
+[AUDIT   ] CWWKG0028A: Processing included configuration resource: /var/mqm/web/installations/Installation1/servers/mqweb/mqwebuser.xml
+[AUDIT   ] CWWKG0028A: Processing included configuration resource: /var/mqm/web/installations/Installation1/servers/mqweb/tls.xml
+[AUDIT   ] CWWKT0016I: Web application available (default_host): https://aceserver:9443/ibmmq/rest/v1/
+[AUDIT   ] CWWKZ0001I: Application com.ibm.mq.rest started in 0.185 seconds.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): https://aceserver:9443/ibmmq/console/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): https://aceserver:9443/ibmmq/console/internal/
+[AUDIT   ] CWWKZ0001I: Application com.ibm.mq.console started in 0.348 seconds.
+[AUDIT   ] CWWKF0015I: The server has the following interim fixes active in the runtime: PH16611,PH13983. For a full listing of installed fixes run: productInfo version --ifixes
+[AUDIT   ] CWWKF0012I: The server installed the following features: [appSecurity-2.0, applicationMonitorMQ-1.0, basicAuthenticationMQ-1.0, concurrent-1.0, distributedMap-1.0, jaxrs-1.1, jndi-1.0, json-1.0, jsp-2.2, localConnector-1.0, servlet-3.1, ssl-1.0, websocket-1.0].
+[AUDIT   ] CWWKF0011I: The mqweb server is ready to run a smarter planet. The mqweb server started in 1.633 seconds.
+[AUDIT   ] MQWB2019I: MQ Console level: p914-L191127.DE
+[AUDIT   ] MQWB0400E: The MFT REST API is not enabled.
+[AUDIT   ] MQWB0023I: MQ REST API level: p914-L191127.DE

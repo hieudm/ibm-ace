@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  aceserver:
+    image: ibmcom/ace-server:11.0.0.12-r1-eus-20210422-114930
+    container_name: aceserver
+    restart: always
+    hostname: aceserver
+    environment:
+        - LICENSE=accept
+        - ACE_SERVER_NAME=ACESERVER
+        - USE_QMGR=false
+    volumes:
+      - ./server.conf.yaml:/home/aceuser/initial-config/serverconf
+      - ./setdbparms:/home/aceuser/initial-config/setdbparms
+    ports: 
+      - 7600:7600
+      - 7800:7800
+      - 7843:7843
+      - 7888:7888

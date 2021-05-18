@@ -1,0 +1,32 @@
+05/18/2021 04:19:37 AM - Process(168.1) User(mqm) Program(crtmqm)
+                    Host(aceserver) Installation(Installation1)
+                    VRMF(9.1.4.0)
+                    Time(2021-05-18T04:19:37.912Z)
+                    CommentInsert1(Linux 5.11.0-17-generic (MQ Linux (x86-64 platform) 64-bit))
+                    CommentInsert2(/opt/mqm (Installation1))
+                    CommentInsert3(9.1.4.0 (p914-L191127.DE))
+                   
+AMQ6287I: IBM MQ V9.1.4.0 (p914-L191127.DE).
+
+EXPLANATION:
+IBM MQ system information: 
+Host Info         :- Linux 5.11.0-17-generic (MQ Linux (x86-64 platform)
+64-bit) 
+Installation      :- /opt/mqm (Installation1) 
+Version           :- 9.1.4.0 (p914-L191127.DE)
+ACTION:
+None.
+----- amqxeida.c : 6460 -------------------------------------------------------
+05/18/2021 04:19:37 AM - Process(168.1) User(mqm) Program(crtmqm)
+                    Host(aceserver) Installation(Installation1)
+                    VRMF(9.1.4.0)
+                    Time(2021-05-18T04:19:37.912Z)
+                    CommentInsert3(QMGR)
+                   
+AMQ8001I: IBM MQ queue manager created.
+
+EXPLANATION:
+IBM MQ queue manager QMGR created.
+ACTION:
+None.
+----- amqzsly0.c : 2496 -------------------------------------------------------

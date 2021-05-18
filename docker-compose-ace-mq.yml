@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  aceserver:
+    image: ibmcom/ace-mq:11.0.0.9-r2-amd64
+    container_name: aceserver
+    restart: always
+    hostname: aceserver
+    environment:
+        - LICENSE=accept
+        - ACE_SERVER_NAME=ACESERVER
+        - USE_QMGR=true
+        - MQ_QMGR_NAME=QMGR
+        - MQ_DEV=false
+        - MQ_ADMIN_PASSWORD=bhu89ijn
+    volumes:
+      - ./server.conf.yaml:/home/aceuser/initial-config/serverconf
+      - ./setdbparms:/home/aceuser/initial-config/setdbparms
+      - ./acerun:/home/aceuser/ace-server/run
+      - qmdata:/var/mqm
+    ports: 
+      - 7600:7600
+      - 7800:7800
+      - 7843:7843
+      - 7888:7888
+      - 1415:1414
+volumes:
+  qmdata:
+    driver: local
+    driver_opts:
+       o: bind
+       type: none
+       device: ./qmdata

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="mqdemo">
+<ConfigurableProperty uri="mqdemo#additionalInstances"/>
+<ConfigurableProperty uri="mqdemo#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="mqdemo#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="mqdemo#processingTimeoutSec"/>
+<ConfigurableProperty uri="mqdemo#processingTimeoutAction"/>
+<ConfigurableProperty uri="mqdemo#wlmPolicy"/>
+<ConfigurableProperty uri="mqdemo#commitCount"/>
+<ConfigurableProperty uri="mqdemo#commitInterval"/>
+<ConfigurableProperty uri="mqdemo#coordinatedTransaction"/>
+<ConfigurableProperty uri="mqdemo#consumerPolicySet"/>
+<ConfigurableProperty uri="mqdemo#providerPolicySet"/>
+<ConfigurableProperty uri="mqdemo#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="mqdemo#providerPolicySetBindings"/>
+<ConfigurableProperty uri="mqdemo#securityProfileName"/>
+<ConfigurableProperty uri="mqdemo#monitoringProfile"/>
+<ConfigurableProperty uri="mqdemo#startMode"/>
+<ConfigurableProperty uri="mqdemo#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="TEST.IN" uri="mqdemo#MQ Input.queueName"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.connection"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.channelName"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.useSSL"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.validateMaster"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.additionalInstances"/>
+<ConfigurableProperty uri="mqdemo#MQ Input.policyUrl"/>
+<ConfigurableProperty override="TEST.OUT" uri="mqdemo#MQ Output.queueName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.connection"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.channelName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.useSSL"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.securityProfileName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="mqdemo#MQ Output.GroupRequestTimeout"/>
+</CompiledMessageFlow>
+</Broker>

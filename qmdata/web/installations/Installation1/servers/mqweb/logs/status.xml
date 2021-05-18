@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><status><alias contextRoot="/ibmmq/rest/v1/*" httpHost="aceserver" httpPort="0" httpsPort="9443" startDate="1621311754297" url="https://aceserver:9443*:9443"/><alias contextRoot="/ibmmq/console/*" httpHost="aceserver" httpPort="0" httpsPort="9443" startDate="1621311754455" url="https://aceserver:9443*:9443"/></status>
